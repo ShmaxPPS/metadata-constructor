@@ -1,23 +1,55 @@
-# Compiled class file
-*.class
+#ignore target dir
+target*/
 
-# Log file
-*.log
+#gradle files
+.gradle*/
 
-# BlueJ files
-*.ctxt
+*.orig
+#
+# Eclipse project files
+#
+#.classpath
+#.project
+#.settings*/
+.springBeans
+.metadata/
+war*/
 
-# Mobile Tools for Java (J2ME)
-.mtj.tmp/
+#
+# IntelliJ IDEA project files
+#
+.idea*/
+.classes*/
+*.ipr
+*.iml
+*.iws
+*.ids
+atlassian-ide-plugin.xml
 
-# Package Files #
-*.jar
-*.war
-*.nar
-*.ear
-*.zip
-*.tar.gz
-*.rar
+#ignore NetBeans project files
+nb-configuration.xml
+profiles.xml
+catalog.xml
+nbactions.xml
 
-# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
-hs_err_pid*
+#ignore some temporary files
+*.vpp~*
+
+# os meta files
+Thumbs.db
+.DS_Store
+
+
+pom.xml.versionsBackup
+
+frontend/dist*/
+frontend/node_modules*/
+frontend/src/ts/**/*.js
+frontend/src/ts/**/*.js.map
+frontend/src/ts/**/*.ngsummary.json
+npm-debug.log
+jmeter.log
+
+#Sublime project files
+*.sublime-project
+*.sublime-workspace
